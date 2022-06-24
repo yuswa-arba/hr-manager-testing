@@ -1,0 +1,36 @@
+{
+  "name": "globalxtreme/hr-manager-testing",
+  "description": "HR Manager for GlobalXtreme Software",
+  "authors": [
+    {
+      "name": "Yuswa",
+      "email": "yuswa98@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GlobalXtreme\\HRManager\\": "src/"
+    },
+    "files": [
+      "src/Misc/employee.php"
+    ]
+  },
+  "require": {
+    "php": "^7.2|8.*",
+    "globalxtreme/erp-manager": "^1.1.56",
+    "illuminate/support": "^8.83"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GlobalXtreme\\HRManager\\HRServiceProvider"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/globalxtreme/erp-manager.git"
+    }
+  ]
+}
