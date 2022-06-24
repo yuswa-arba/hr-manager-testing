@@ -1,5 +1,5 @@
 {
-  "name": "globalxtreme/hr-manager-testing",
+  "name": "yuswa-arba/hr-manager-testing",
   "description": "HR Manager for GlobalXtreme Software",
   "authors": [
     {
@@ -9,7 +9,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "GlobalXtreme\\HRManager\\": "src/"
+      "YuswaArba\\HRManager\\": "src/"
     },
     "files": [
       "src/Misc/employee.php"
@@ -23,7 +23,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "GlobalXtreme\\HRManager\\HRServiceProvider"
+        "YuswaArba\\HRManager\\HRServiceProvider"
       ]
     }
   },

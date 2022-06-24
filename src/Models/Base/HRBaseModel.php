@@ -1,7 +1,7 @@
 <?php
 
 
-namespace GlobalXtreme\HRManager\Models\Base;
+namespace YuswaArba\HRManager\Models\Base;
 
 
 use Illuminate\Database\Eloquent\Model;

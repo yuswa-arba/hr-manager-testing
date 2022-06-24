@@ -1,6 +1,6 @@
 <?php
 
-namespace GlobalXtreme\HRManager;
+namespace YuswaArba\HRManager;
 
 use Illuminate\Support\ServiceProvider;
 

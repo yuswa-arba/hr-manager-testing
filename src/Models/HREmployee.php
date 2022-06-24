@@ -1,6 +1,6 @@
 <?php
 
-namespace GlobalXtreme\HRManager\Models;
+namespace YuswaArba\HRManager\Models;
 
 use GlobalXtreme\HRManager\Models\Base\HRBaseModel;
 
